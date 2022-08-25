@@ -28,13 +28,13 @@ Account Logon refers to third party authentication. In an enterprise domain user
 If you login using a local account Account logon events will be generated on the local system.  
 
 ### Logon
-4624: Logon
-4625: Failed Logon
-4634,4647: Successful Logoff
-4648: Logon using explicit credentials (RunAs)
-4672: Account logon with superuser rights (special logon)
-4720: An account was created 
-4726: An account was deleted
+4624: Logon  
+4625: Failed Logon  
+4634,4647: Successful Logoff  
+4648: Logon using explicit credentials   
+4672: Account logon with superuser rights (special logon)  
+4720: An account was created   
+4726: An account was deleted  
 
 #### How to
 
@@ -57,7 +57,9 @@ There are also other channels to look for RDP events
 
 
 ### Account logon
-4776: Successful/Failed account authentication  
+NTLM  
+4776: Successful/Failed account authentication
+Kerberos  
 4768: Ticket Granting Ticket was granted   
 4769: Service Ticket requested   
 4771: Pre-authentication failed   
