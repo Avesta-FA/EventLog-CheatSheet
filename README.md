@@ -7,9 +7,9 @@ Common channels are:
 * System
 * Application  
 
-Each channel has 4 types:  
+There are 4 channel types:  
 * Common
-	- Admin
+	- Administrative 
 	- Operational
 * Uncommon
 	- Debug
