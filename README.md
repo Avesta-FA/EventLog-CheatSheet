@@ -40,29 +40,18 @@ If you login using a local account Account logon events will be generated on the
 
 for 4624 you must whitelist DWM and UMFD
 Interesting fields are:
-Logon type, Computer, Account, date and time, Logon ID
-
+Logon type, Computer, Account, date and time, Logon ID  
 When a logon and logoff event have the same Logon ID the time can be used to determine the session length.  
-
 Using 4625 with logon type 3 (network) we can detect brute force attacks against a system.  
-
-
 4672 special logon is great for detecting privileged users it is common to see a 4624 and 4672 together this means that an admin account logged in to the system.  
-
-
 4720 is very straight forward if an adversary create an account this event will detect it.  
 
 
-
-
 ### RDP
-4778: Session Reconnected
-4779: Session Disconnected
-Logon Type 7 and 10
-There are also other channels to look for RDP events
-
-
-
+4778: Session Reconnected  
+4779: Session Disconnected  
+Logon Type 7 and 10  
+There are also other channels to look for RDP events  
 
 
 
