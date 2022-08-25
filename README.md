@@ -59,7 +59,7 @@ There are also other channels to look for RDP events
 
 ### Account logon
 NTLM  
-4776: Successful/Failed account authentication
+4776: Successful/Failed account authentication  
 Kerberos  
 4768: Ticket Granting Ticket was granted   
 4769: Service Ticket requested   
