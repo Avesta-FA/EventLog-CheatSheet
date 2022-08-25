@@ -20,7 +20,7 @@ There are 4 channel types:
 Our main focus will be on the security channel because it's the most relevant.  
 
 ## User/Account Activity
-There are various ways of logging in to a system.You can use the microsoft docs to learn about different [logon types](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types) that exist. 
+There are various ways of logging in to a system.You can use the Microsoft docs to learn about different [logon types](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types) that exist. 
   
 Before we start it is first vital that we explain the difference between Account logon and logon.  
 Logon refers to local login activity that occurs on the local system hence the log will be generated on the local system.  
@@ -33,8 +33,8 @@ If you login using a local account Account logon events will be generated on the
 4634,4647: Successful Logoff
 4648: Logon using explicit credentials (RunAs)
 4672: Account logon with superuser rights (special logon)
-4720 : An account was created 
-4726 : An account was deleted
+4720: An account was created 
+4726: An account was deleted
 
 #### How to
 
@@ -57,6 +57,10 @@ There are also other channels to look for RDP events
 
 
 ### Account logon
+4776: Successful/Failed account authentication  
+4768: Ticket Granting Ticket was granted   
+4769: Service Ticket requested   
+4771: Pre-authentication failed   
 
 
 
