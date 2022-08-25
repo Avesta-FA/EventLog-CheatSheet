@@ -20,3 +20,4 @@ There are 4 channel types:
 Our main focus will be on the security channel because it's the most relevant.  
 
 ## User/Account Activity
+There are various ways of logging in to a system.You can use the microsoft docs to learn about different [logon types](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types) that exist.  
