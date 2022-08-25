@@ -5,7 +5,8 @@ Events can be written to event log channels and each event has an event ID.
 Common channels are:  
 * Security
 * System
-* Application
+* Application  
+
 Each channel has 4 types:  
 * Common
 	- Admin
