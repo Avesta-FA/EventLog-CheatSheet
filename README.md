@@ -39,7 +39,7 @@ For 4624 you must whitelist DWM and UMFD.
 When a logon and logoff event have the same Logon ID the time can be used to determine the session length.  
 Using 4625 with logon type 3 (network) we can detect brute force attacks against a system.  
 4672 special logon is great for detecting privileged users it is common to see a 4624 and 4672 together this means that an admin account logged in to the system.  
-When looking for admin accounts it is important that you exclude built in windows accounts because these account login frequently and create special logons.  
+When looking for admin accounts it is important that you exclude built-in windows accounts because these accounts login frequently and create special logons.  
 4720 is very straight forward if an adversary creates an account this event will detect it.  
 
 
