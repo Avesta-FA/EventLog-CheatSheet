@@ -14,3 +14,9 @@ There are 4 channel types:
 * Uncommon
 	- Debug
 	- Analytic
+
+
+
+Our main focus will be on the security channel because it's the most relevant.  
+
+## User/Account Activity
