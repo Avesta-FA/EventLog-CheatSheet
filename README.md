@@ -18,14 +18,12 @@ There are 4 channel types:
 
 
 Our main focus will be on the security channel because it's the most relevant.  
-
-## User/Account Activity
+  
 There are various ways of logging in to a system.You can use the Microsoft docs to learn about different [logon types](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types) that exist. 
   
 Before we start it is first vital that we explain the difference between Account logon and logon.  
 Logon refers to local login activity that occurs on the local system hence the log will be generated on the local system.  
-Account Logon refers to third party authentication. In an enterprise domain users authenticate to the domain controller because of that you will generate logs on the DC and on the local system.  
-If you login using a local account Account logon events will be generated on the local system.  
+Account Logon refers to third party authentication. In an enterprise domain users authenticate to the domain controller because of that you will generate logs on the DC and the local system. If you login using a local account Account logon events will be generated on the local system.  
 
 ### Logon
 4624: Logon  
@@ -36,8 +34,7 @@ If you login using a local account Account logon events will be generated on the
 4720: An account was created   
 4726: An account was deleted  
 
-#### How to
-
+#### How to  
 For 4624 you must whitelist DWM and UMFD.  
 When a logon and logoff event have the same Logon ID the time can be used to determine the session length.  
 Using 4625 with logon type 3 (network) we can detect brute force attacks against a system.  
