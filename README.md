@@ -31,6 +31,20 @@ For 4624 you must whitelist DWM and UMFD.
   
 4625: Failed Logon  
 Using 4625 with logon type 3 (network) we can detect brute force attacks against a system.  
+
+
+
+### Enumeration
+4758: A user'slocal group membership was enumerated
+4755: A security-enabled local group membership was enumerated
+
+These events were added with windows 10 and it allows you detect reconnaissance activity in the network.  
+You will need to whitelist mmc, services, taskhostw, explorer and focus on important groups and accounts.  
+
+
+
+
+
   
 4634,4647: Successful Logoff  
 When a logon and logoff event have the same Logon ID the time can be used to determine the session length.  
