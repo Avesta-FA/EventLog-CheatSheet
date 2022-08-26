@@ -55,6 +55,9 @@ There are also other channels to look for RDP events
 ### Account logon
 NTLM  
 4776: Successful/Failed account authentication  
+In an enterprise local ntlm authentication is rare so seeing local 4776 should interesting and should be analyzed.  
+A combination of network logon 4624 type 3 and account logon for ntlm 4776 can be an indicator or pass the hash.  
+  
 Kerberos  
 4768: Ticket Granting Ticket was granted   
 4769: Service Ticket requested   
