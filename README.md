@@ -98,6 +98,7 @@ Adversaries will commonly use these shares: C$, ADMIN$, IPC$
 ### RunAs
 4648: Logon using explicit credentials   
 This event can occur during RDP, Network share, Process creation, and etc.  
+It is a great way to detect how an adversary is moving from one compromised account to another.  
 
 
 
