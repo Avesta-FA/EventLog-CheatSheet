@@ -64,8 +64,8 @@ When looking for admin accounts it is important that you whitelist built-in wind
 4778: Session Reconnected  
 4779: Session Disconnected  
 Logon Type 7 and 10  
-There are also other channels to look for RDP events  
-
+There are also other channels to look for RDP events.  
+These logs give us information about hostname and IP addresses.  
 
 
 
@@ -85,6 +85,15 @@ Kerberos
 4755: A security-enabled local group membership was enumerated  
 These events were added with windows 10 and it allows you detect reconnaissance activity in the network.  
 You will need to whitelist mmc, services, taskhostw, explorer and focus on important groups and accounts.  
+
+
+### Network Share
+5140: Network share was accessed  
+5145: Shared object accessed  
+Adversaries might use shares to laterally move in your environment.  
+Adversaries will commonly use these shares: C$, ADMIN$, IPC$  
+
+
 
 
 
