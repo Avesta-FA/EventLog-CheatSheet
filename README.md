@@ -48,7 +48,6 @@ You will need to whitelist mmc, services, taskhostw, explorer and focus on impor
   
 4634,4647: Successful Logoff  
 When a logon and logoff event have the same Logon ID the time can be used to determine the session length.  
-4648: Logon using explicit credentials   
   
 4672: Account logon with superuser rights (special logon)  
 Special logon is great for detecting privileged users it is common to see a 4624 and 4672 together this means that an admin account logged in to the system.  
@@ -97,6 +96,7 @@ Adversaries will commonly use these shares: C$, ADMIN$, IPC$
 
 
 
+4648: Logon using explicit credentials   
 
 
 
