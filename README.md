@@ -106,7 +106,6 @@ It is a great way to detect how an adversary is moving from one compromised acco
 4702: Scheduled Task Updated  
 
 You can also look into the Task Scheduler channel  
-
 106: Scheduled Task Created  
 140: Scheduled Task Updated  
 141: Scheduled Task Deleted  
