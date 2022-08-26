@@ -98,6 +98,21 @@ This event can occur during RDP, Network share, Process creation, and etc.
 It is a great way to detect how an adversary is moving from one compromised account to another.  
 
 
+### Scheduled Tasks
+4698: Scheduled Task Created  
+4699: Scheduled Task Deleted  
+4700: Scheduled Task Enabled  
+4701: Scheduled Task Disabled  
+4702: Scheduled Task Updated  
+
+You can also look into the Task Scheduler channel  
+
+106: Scheduled Task Created  
+140: Scheduled Task Updated  
+141: Scheduled Task Deleted  
+200: Scheduled Task Executed  
+201: Scheduled Task Completed  
+
 
 
 
