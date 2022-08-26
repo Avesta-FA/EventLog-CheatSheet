@@ -35,9 +35,8 @@ Using 4625 with logon type 3 (network) we can detect brute force attacks against
 
 
 ### Enumeration
-4758: A user'slocal group membership was enumerated
+4758: A user's local group membership was enumerated
 4755: A security-enabled local group membership was enumerated
-
 These events were added with windows 10 and it allows you detect reconnaissance activity in the network.  
 You will need to whitelist mmc, services, taskhostw, explorer and focus on important groups and accounts.  
 
@@ -91,8 +90,6 @@ You will need to whitelist mmc, services, taskhostw, explorer and focus on impor
 5145: Shared object accessed  
 Adversaries might use shares to laterally move in your environment.  
 Adversaries will commonly use these shares: C$, ADMIN$, IPC$  
-
-
 
 
 ### RunAs
