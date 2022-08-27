@@ -73,6 +73,15 @@ These events were added with windows 10 and it allows you detect reconnaissance 
 You will need to whitelist mmc, services, taskhostw, explorer and focus on important groups and accounts.  
 
 
+### USB
+
+
+
+
+### Services
+
+
+
 ### Network Share
 5140: Network share was accessed  
 5145: Shared object accessed  
