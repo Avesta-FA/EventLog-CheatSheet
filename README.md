@@ -43,10 +43,11 @@ When looking for admin accounts it is important that you whitelist built-in wind
 4720: An account was created  
 4720 is very straight forward if an adversary creates an account this event will detect it.  
 4726: An account was deleted  
+  
 4728: A member was added to a security-enabled global group  
 4732: A member was added to a security-enabled local group  
 4757: A member was removed from a security-enabled universal group  
-
+These are great for monitoring Administrator groups  
 
  
 
