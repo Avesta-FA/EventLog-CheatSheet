@@ -94,20 +94,20 @@ Services are a great way to escalate privileges or persist on a system.
 
 
 
-### Network Share
+### Network Share  
 5140: Network share was accessed  
 5145: Shared object accessed  
 Adversaries might use shares to laterally move in your environment.  
 Adversaries will commonly use these shares: C$, ADMIN$, IPC$  
 
 
-### RunAs
+### RunAs  
 4648: Logon using explicit credentials   
 This event can occur during RDP, Network share, Process creation, and etc.  
 It is a great way to detect how an adversary is moving from one compromised account to another.  
 
 
-### Scheduled Tasks
+### Scheduled Tasks  
 4698: Scheduled Task Created  
 4699: Scheduled Task Deleted  
 4700: Scheduled Task Enabled  
@@ -121,6 +121,8 @@ You can also look into the Task Scheduler channel
 200: Scheduled Task Executed  
 201: Scheduled Task Completed  
 
+### Registry  
+4657: a registry value was modified   
 
 
 
