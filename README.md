@@ -46,8 +46,8 @@ When looking for admin accounts it is important that you whitelist built-in wind
   
 4728: A member was added to a security-enabled global group  
 4732: A member was added to a security-enabled local group  
-4757: A member was removed from a security-enabled universal group  
-These are great for monitoring Administrator groups  
+4756: A member was added to a security-enabled universal group  
+These are great for monitoring Administrator groups    
 
  
 
