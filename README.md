@@ -81,7 +81,9 @@ You will need to whitelist mmc, services, taskhostw, explorer and focus on impor
 
 
 ### USB
-
+4663: An attempt was made to access an object  
+4656: A handle to an object was requested  
+6416: A new external device was recognized by the System  
 
 
 
