@@ -80,6 +80,15 @@ These events were added with windows 10 and it allows you detect reconnaissance 
 You will need to whitelist mmc, services, taskhostw, explorer and focus on important groups and accounts.  
 
 
+
+### WMI
+
+
+
+### Powershell
+
+
+
 ### USB
 4663: An attempt was made to access an object  
 4656: A handle to an object was requested  
