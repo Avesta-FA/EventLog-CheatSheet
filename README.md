@@ -86,6 +86,10 @@ You will need to whitelist mmc, services, taskhostw, explorer and focus on impor
 6416: A new external device was recognized by the System  
 
 
+### Log clearing
+1102: The audit log was cleared  
+In the system channel look for:  
+104: The audit log was cleared
 
 ### Services
 4697: A new service was installed on the system  
