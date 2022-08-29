@@ -86,11 +86,11 @@ You will need to whitelist mmc, services, taskhostw, explorer and focus on impor
 
 
 ### Services
-Services are a great way to escalate privileges or persist on a system.  
 4697: A new service was installed on the system  
 7045: A new service was installed on the system   
 7040: Start type changed   
 7036: Service started or stopped  
+Services are a great way to escalate privileges or persist on a system.  
 
 
 
