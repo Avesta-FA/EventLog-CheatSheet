@@ -61,6 +61,8 @@ There are also other channels to look for RDP events.
 These logs give us information about hostname and IP addresses.  
 
 
+### Processes
+
 
 ### Account logon
 NTLM  
