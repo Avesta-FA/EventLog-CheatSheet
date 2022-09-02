@@ -147,7 +147,7 @@ You can also look into the Task Scheduler channel
 201: Scheduled Task Completed  
 
 ### Registry  
-4657: a registry value was modified   
+4657: A registry value was modified   
 
 
 
