@@ -86,10 +86,15 @@ You will need to whitelist mmc, services, taskhostw, explorer and focus on impor
 
 
 ### WMI
-
+Under WMI-Activity:  
+5857: WMI Activity was detected  
+5858: WMI errors detected  
+5859,5860: WMI Filter/Consumer activity was detected  
+5861: WMI FilterConsumer Binding was detected  
 
 
 ### Powershell
+Under Powershell channel:  
 4103: Module Logging  
 4104: Scriptblock Logging  
 
