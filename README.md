@@ -62,6 +62,8 @@ These logs give us information about hostname and IP addresses.
 
 
 ### Processes
+4688: A new process has been created  
+4689: A process has exited  
 
 
 ### Account logon
