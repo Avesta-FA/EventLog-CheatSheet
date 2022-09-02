@@ -94,7 +94,7 @@ Under WMI-Activity:
 
 
 ### Powershell
-Under Powershell channel:  
+Under Powershell:  
 4103: Module Logging  
 4104: Scriptblock Logging  
 
