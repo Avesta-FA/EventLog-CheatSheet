@@ -90,7 +90,8 @@ You will need to whitelist mmc, services, taskhostw, explorer and focus on impor
 
 
 ### Powershell
-
+4103: Module Logging  
+4104: Scriptblock Logging  
 
 
 ### USB
