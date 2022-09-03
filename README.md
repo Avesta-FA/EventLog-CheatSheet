@@ -116,8 +116,8 @@ Services are a great way to escalate privileges or persist on a system.
 
 
 ### RDP
-4778: Session Reconnected  
-4779: Session Disconnected  
+4778: A session was reconnected to a Window Station  
+4779: A session was disconnected from a Window Station  
 Logon Type 7 and 10  
 There are also other channels to look for RDP events.  
 These logs give us information about hostname and IP addresses.  
