@@ -152,7 +152,7 @@ You can also look into the Task Scheduler channel
 
 ### Registry  
 4657: A registry value was modified   
-
+Adversaries might modify the HKCU and HKLM run keys.  
 
 
 ### OAlerts
