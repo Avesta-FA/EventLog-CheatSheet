@@ -70,9 +70,9 @@ In an enterprise local NTLM authentication is rare so seeing local 4776 should b
 A combination of network logon 4624 type 3 and account logon for NTLM 4776 can be an indicator of pass the hash.  
   
 Kerberos  
-4768: Ticket Granting Ticket was granted   
-4769: Service Ticket requested   
-4771: Pre-authentication failed   
+4768: A Kerberos authentication ticket (TGT) was requested  
+4769: A Kerberos service ticket was requested  
+4771: Kerberos pre-authentication failed  
 
 ### Enumeration
 4758: A user's local group membership was enumerated  
