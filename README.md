@@ -63,21 +63,6 @@ It is a great way to detect how an adversary is moving from one compromised acco
 4756: A member was added to a security-enabled universal group  
 These are great for monitoring Administrator groups    
 
- 
-
-### RDP
-4778: Session Reconnected  
-4779: Session Disconnected  
-Logon Type 7 and 10  
-There are also other channels to look for RDP events.  
-These logs give us information about hostname and IP addresses.  
-
-
-### Processes
-4688: A new process has been created  
-4689: A process has exited  
-
-
 ### Account logon
 NTLM  
 4776: Successful/Failed account authentication  
@@ -128,6 +113,19 @@ In the system channel look for:
 7040: Start type changed   
 7036: Service started or stopped  
 Services are a great way to escalate privileges or persist on a system.  
+
+
+### RDP
+4778: Session Reconnected  
+4779: Session Disconnected  
+Logon Type 7 and 10  
+There are also other channels to look for RDP events.  
+These logs give us information about hostname and IP addresses.  
+
+
+### Processes
+4688: A new process has been created  
+4689: A process has exited  
 
 
 
