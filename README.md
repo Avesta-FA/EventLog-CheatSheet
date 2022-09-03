@@ -29,7 +29,7 @@ There are various ways of logging in to a system. You can use the Microsoft docs
 
 Before we start it is first vital that we explain the difference between Account logon and logon.  
 Logon refers to local login activity that occurs on the local system hence the log will be generated on the local system.  
-Account Logon refers to third party authentication. In an enterprise domain users authenticate to the domain controller because of that you will generate logs on the DC and the local system. If you login using a local account Account logon events will be generated on the local system.  
+Account Logon refers to third party authentication. In an enterprise domain users authenticate to the domain controller because of that you will generate logs on the DC and the local system. If you login using a local account Account Logon events will be generated on the local system.  
 
 ### Logon
 4624: Logon  
