@@ -49,7 +49,13 @@ When looking for admin accounts it is important that you whitelist built-in wind
 4720: An account was created  
 4720 is very straight forward if an adversary creates an account this event will detect it.  
 4726: An account was deleted  
-  
+
+
+4648: Logon using explicit credentials   
+This event can occur during RDP, Network share, Process creation, and etc.  
+It is a great way to detect how an adversary is moving from one compromised account to another.  
+
+
   
 ### Groups
 4728: A member was added to a security-enabled global group  
@@ -130,12 +136,6 @@ Services are a great way to escalate privileges or persist on a system.
 5145: Shared object accessed  
 Adversaries might use shares to laterally move in your environment.  
 Adversaries will commonly use these shares: C$, ADMIN$, IPC$  
-
-
-### RunAs  
-4648: Logon using explicit credentials   
-This event can occur during RDP, Network share, Process creation, and etc.  
-It is a great way to detect how an adversary is moving from one compromised account to another.  
 
 
 ### Scheduled Tasks  
