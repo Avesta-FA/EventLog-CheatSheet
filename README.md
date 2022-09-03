@@ -77,8 +77,8 @@ Kerberos
 ### Enumeration
 4758: A user's local group membership was enumerated  
 4755: A security-enabled local group membership was enumerated  
-These events were added with windows 10 and it allows you detect reconnaissance activity in the network.  
-You will need to whitelist mmc, services, taskhostw, explorer and focus on important groups and accounts.  
+These events were added with windows 10 and it allows you to detect reconnaissance activity in the network.  
+You will need to whitelist mmc, services, taskhostw, and explorer.  
 
 
 
