@@ -23,7 +23,7 @@ There are 4 channel types:
 Our main focus will be on the security channel.  
   
 #### Logon Types
-There are various ways of logging in to a system.You can use the Microsoft docs to learn about different [logon types](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types) that exist. 
+There are various ways of logging in to a system. You can use the Microsoft docs to learn about different [logon types](https://docs.microsoft.com/en-us/windows-server/identity/securing-privileged-access/reference-tools-logon-types) that exist. 
 
 #### Account Logon VS Logon 
 
