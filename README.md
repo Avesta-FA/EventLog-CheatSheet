@@ -110,6 +110,7 @@ In the system channel look for:
 ### Services
 4697: A new service was installed on the system  
 7045: A new service was installed on the system   
+7034: Service crashed  
 7040: Start type changed   
 7036: Service started or stopped  
 Services are a great way to escalate privileges or persist on a system.  
