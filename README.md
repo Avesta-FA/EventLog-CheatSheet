@@ -75,8 +75,8 @@ Kerberos
 4771: Kerberos pre-authentication failed  
 
 ### Enumeration
-4758: A user's local group membership was enumerated  
-4755: A security-enabled local group membership was enumerated  
+4798: A user's local group membership was enumerated  
+4799: A security-enabled local group membership was enumerated  
 These events were added with windows 10 and it allows you to detect reconnaissance activity in the network.  
 You will need to whitelist mmc, services, taskhostw, and explorer.  
 
