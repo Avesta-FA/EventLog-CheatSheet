@@ -65,7 +65,7 @@ These are great for monitoring Administrator groups
 
 ### Account logon
 NTLM  
-4776: Successful/Failed account authentication  
+4776: The computer attempted to validate the credentials for an account  
 In an enterprise local NTLM authentication is rare so seeing local 4776 should be interesting.  
 A combination of network logon 4624 type 3 and account logon for NTLM 4776 can be an indicator of pass the hash.  
   
