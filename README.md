@@ -1,7 +1,10 @@
 # EventLog-CheatSheet
 Searching through event logs is a daunting task.  
 This cheat sheet is made to be a simple way for security practitioners to go through useful logs and find adversary activity.  
-Events are written to event log channels and each event has an event ID.   
+Events are written to event log channels and each event has an event ID.  
+Windows event logs are stored under:  
+C:\Windows\System32\winevt\Logs  
+
 Common channels are:  
 * Security
 * System
