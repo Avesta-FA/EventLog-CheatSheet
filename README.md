@@ -47,7 +47,7 @@ Special logon is great for detecting privileged users it is common to see a 4624
 When looking for admin accounts it is important that you whitelist built-in windows accounts because these accounts login frequently and create special logons.  
   
 4720: An account was created  
-4720 is very straight forward if an adversary creates an account this event will detect it.  
+4720 is very straightforward if an adversary creates an account this event will detect it.  
 4726: An account was deleted  
 
 
