@@ -96,7 +96,7 @@ Under Powershell:
 4104: Scriptblock Logging  
 
 
-### USB
+### Removeable Devices
 4663: An attempt was made to access an object  
 4656: A handle to an object was requested  
 6416: A new external device was recognized by the System  
