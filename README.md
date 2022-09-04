@@ -152,7 +152,9 @@ You can also look into the Task Scheduler channel
 201: Scheduled Task Completed  
 
 ### Registry  
+4656: A handle to an object was requested  
 4657: A registry value was modified   
+4658: The handle to an object was closed  
 Adversaries might modify the HKCU and HKLM run keys.  
 
 
